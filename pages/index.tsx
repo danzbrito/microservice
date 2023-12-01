@@ -12,8 +12,11 @@ const Index: NextPage = () => {
         <div className="flex flex-col h-full  justify-center items-center font-bold text-4xl">
           Welcome to next-doc
           <p className="font-normal text-lg text-gray-500">ini adalah landing awal aplikasi next.js kita</p>
-          <Link href="/issue" className="bg-gray-900 p-2 px-4 rounded-lg text-base text-white hover:bg-opacity-75 mt-5">
+          <Link href="/issue" className="bg-green-600 p-2 px-4 rounded-lg text-base text-white hover:bg-opacity-75 mt-5">
             klik saya ( di klik akan menuju halaman issue )
+          </Link>
+          <Link href="/login" className="bg-blue-600 p-2 px-4 rounded-lg text-base text-white hover:bg-opacity-75 mt-5">
+            klik saya ( di klik akan menuju halaman Login )
           </Link>
         </div>
       </div>

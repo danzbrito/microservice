@@ -11,6 +11,7 @@
     "format:check": "prettier --check --ignore-path=.gitignore ."
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "20.8.9",
     "@types/react": "18.2.38",
     "autoprefixer": "^10.0.0",
